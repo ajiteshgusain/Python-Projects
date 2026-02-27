@@ -21,14 +21,14 @@ class library_inventory:
          
          return  None
 
-def dispaly_all(self):
-     """print all the books in the inventory"""
-     if not self.books:
-          print("the library is currenty empty.")
+    def dispaly_all(self):
+         """print all the books in the inventory"""
+         if not self.books:
+              print("the library is currenty empty.")
 
-     else:
-          for book in self.books:
-               print(book)
+         else:
+              for book in self.books:
+                   print(book)
  
 
         
