@@ -9,9 +9,20 @@ class Book:
         if self.is_available():
             self.status="issued"
             return True
+        return False
     
     def return_book(self):
-        self.status="avaliable"
+        self.status="available"
+
+    def is_avaliable(self):
+# boolean expression. This means the computer evaluates it and immediately turns it into either True or False.        
+#         return self.status=="available"
+        
+        if self.status=="available":
+            return True
+        else:
+            return False
+    
 
     def to_dict(self):
         return{
