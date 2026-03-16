@@ -1,3 +1,5 @@
+from book import Book  # The dot (.) means 'look in the current folder'
+
 class library_inventory:
     def __init__(self):
         #intializing an empty list to store book objects
